@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "name": "Bruce Wayne",
+    "gender": "Male",
+    "birthDate": "1972-02-19"
+  },
+  {
+    "id": "2",
+    "name": "Clark Kent",
+    "gender": "male",
+    "birthDate": "1975-06-18"
+  },
+  {
+    "id": "3",
+    "name": "Diana Prince",
+    "gender": "Female",
+    "birthDate": "1984-03-22"
+  },
+  {
+    "id": "4",
+    "name": "Barry Allen",
+    "gender": "male",
+    "birthDate": "1989-07-14"
+  },
+  {
+    "id": "5",
+    "name": "Harley Quinn",
+    "gender": "female",
+    "birthDate": "1990-09-31"
+  },
+  {
+    "id": "6",
+    "name": "Selina Kyle",
+    "gender": "female",
+    "birthDate": "92-04-10"
+  },
+  {
+    "id": "7",
+    "name": "Arthur Curry",
+    "gender": "male",
+    "birthDate": "1983-01-29"
+  },
+  {
+    "id": "8",
+    "name": "Victor Stone",
+    "gender": "male",
+    "birthDate": "1992-12-21"
+  },
+  {
+    "id": "9",
+    "name": "Barbara Gordon",
+    "gender": "female",
+    "birthDate": "1987-07-17"
+  },
+  {
+    "id": "10",
+    "name": "Hal Jordan",
+    "gender": "male",
+    "birthDate": "1978-04-201111",
+    "null": [
+      "Harry Potter",
+      "male",
+      "1998-04-24"
+    ]
+  }
+]

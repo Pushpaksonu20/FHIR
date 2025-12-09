@@ -1,0 +1,37 @@
+{
+  "resourceType": "Organization",
+  "id": "ORG001",
+  "name": "Burgess Medical Group",
+  "type": [
+    { "coding": [{ "code": "prov", "display": "Provider Organization" }] }
+  ],
+  "telecom": [{ "system": "phone", "value": "+1-202-555-2222" }],
+  "address": [
+    {
+      "line": ["500 Healthcare Ave"],
+      "city": "New York",
+      "state": "NY",
+      "postalCode": "10001"
+    }
+  ]
+}
+
+{
+  "resourceType": "Organization",
+  "id": "ORG002",
+  "name": "Neighborhood Hospitals",
+  "type": [
+    { "coding": [{ "code": "hosp", "display": "Hospital" }] }
+  ],
+  "telecom": [
+    { "system": "phone", "value": "+1-202-555-3333" }
+  ],
+  "address": [
+    {
+      "line": ["900 Care Center Blvd"],
+      "city": "Los Angeles",
+      "state": "CA",
+      "postalCode": "90001"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "resourceType": "Patient",
+  "id": "P001",
+  "name": [
+    {
+      "family": "Doe",
+      "given": ["John"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1980-05-15",
+  "telecom": [
+    { "system": "phone", "value": "+1-202-555-0123", "use": "mobile" }
+  ],
+  "address": [
+    {
+      "line": ["123 Main Street"],
+      "city": "Boston",
+      "state": "MA",
+      "postalCode": "02110"
+    }
+  ]
+}
+
+{
+  "resourceType": "Patient",
+  "id": "P002",
+  "name": [
+    {
+      "family": "Smith",
+      "given": ["Jane"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1992-11-20",
+  "telecom": [
+    { "system": "phone", "value": "+1-202-555-0456", "use": "mobile" }
+  ],
+  "address": [
+    {
+      "line": ["45 Lake View Road"],
+      "city": "Chicago",
+      "state": "IL",
+      "postalCode": "60616"
+    }
+  ]
+}

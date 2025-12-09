@@ -1,0 +1,2 @@
+{"resourceType": "Patient", "id": "patient-001", "text": {"status": "generated", "div": "<div>John Doe</div>"}, "name": [{"use": "official", "family": "Doe", "given": ["John"]}], "gender": "male", "birthDate": "1985-04-12"}
+{"resourceType": "Patient", "id": "patient-002", "text": {"status": "generated", "div": "<div>Jane Smith</div>"}, "name": [{"use": "official", "family": "Smith", "given": ["Jane"]}], "gender": "female", "birthDate": "1990-08-20"}

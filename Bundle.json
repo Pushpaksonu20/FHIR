@@ -1,0 +1,54 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-001",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-001",
+        "text": {
+          "status": "generated",
+          "div": "<div>John Doe</div>"
+        },
+        "name": [
+          {
+            "use": "official",
+            "family": "Doe",
+            "given": ["John"]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1985-04-12"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:patient-002",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-002",
+        "text": {
+          "status": "generated",
+          "div": "<div>Jane Smith</div>"
+        },
+        "name": [
+          {
+            "use": "official",
+            "family": "Smith",
+            "given": ["Jane"]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1990-08-20"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient"
+      }
+    }
+  ]
+}

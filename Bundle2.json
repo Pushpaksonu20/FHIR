@@ -1,0 +1,59 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-001",
+      "resource": {
+        "resourceType": "Patient",
+        "name": [
+          {
+            "family": "Gowda",
+            "given": ["Pushpak", "L"]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2001-02-10"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:coverage-001",
+      "resource": {
+        "resourceType": "Coverage",
+        "status": "active",
+        "beneficiary": {
+          "reference": "urn:uuid:patient-001"
+        },
+        "payor": [
+          {
+            "display": "Test Insurance Company"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Coverage"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:practitioner-001",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": [
+          {
+            "family": "Shetty",
+            "given": ["Ramesh"]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner"
+      }
+    }
+  ]
+}

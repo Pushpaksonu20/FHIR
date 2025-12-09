@@ -1,0 +1,37 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PR001",
+  "name": [{ "family": "Brown", "given": ["Emily"] }],
+  "gender": "female",
+  "telecom": [{ "system": "phone", "value": "+1-202-555-0789" }],
+  "qualification": [
+    {
+      "code": {
+        "coding": [{ "code": "MD", "display": "Doctor of Medicine" }],
+        "text": "Doctor of Medicine"
+      }
+    }
+  ]
+}
+
+{
+  "resourceType": "Practitioner",
+  "id": "PR002",
+  "name": [
+    { "family": "Green", "given": ["Michael"] }
+  ],
+  "gender": "male",
+  "telecom": [
+    { "system": "phone", "value": "+1-202-555-0934" }
+  ],
+  "qualification": [
+    {
+      "code": {
+        "coding": [
+          { "code": "RN", "display": "Registered Nurse" }
+        ],
+        "text": "Registered Nurse"
+      }
+    }
+  ]
+}

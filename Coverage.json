@@ -1,0 +1,32 @@
+{
+  "resourceType": "Coverage",
+  "id": "COV001",
+  "status": "active",
+  "beneficiary": { "reference": "Patient/P001" },
+  "payor": [{ "reference": "Organization/ORG001" }],
+  "type": {
+    "coding": [{ "code": "HMO", "display": "HMO" }],
+    "text": "HMO"
+  },
+  "period": {
+    "start": "2024-01-01",
+    "end": "2024-12-31"
+  }
+}
+
+{
+    "resourceType":"Coverage",
+    "id": "C0V002",
+    "status": "active",
+    "beneficiary":[{"reference": "Patient/P002"}],
+    "payor":[{"reference":"Organization/ORG002"}],
+    "type":{
+        "coding": [{"code":"HMO","display":"HMO"}],
+        "text": "HMO"
+    },
+    "period": {
+        "start": "2024-01-01",
+        "end": "2024-12-31"
+    }
+
+}
